@@ -7,15 +7,15 @@
 				padding: 0;
 				margin: 0;
 				font-family: Helvetica, Arial;
-				font-size: .8em;
+				font-size: .7em;
 			}
 			
 			#header * {
-				margin: .25em 0;
+				margin: .30em 0;
 			}
 			
 			#header h2 {
-				font-size: 1.3em;
+				font-size: 1.2em;
 			}
 			
 			.container_12 {
@@ -33,15 +33,15 @@
 			}
 			
 			li h4 {
-				margin: 4px 0;
+				margin: 3px 0;
 			}
 			
 			li {
-				margin: 2px 0;
+				margin: 1px 0;
 			}
 			
 			ul {
-				padding-left: 20px;
+				padding-left: 15px;
 				margin: 0;
 			}
 			
@@ -52,7 +52,7 @@
 			}
 			
 			.grid_12 {
-				margin-top: 15px;
+				margin-top: 12px;
 			}
 			
 			.colored .section {
@@ -113,6 +113,20 @@
 			a:link, a:visited {
 				color: #6FA9C3;
 			}
+			
+			#where .title {
+				font-weight: bold;
+				font-size: 1.2em;
+			}
+			
+			#where .grid_12 {
+				padding-bottom: 12px;
+				border-bottom: solid 3px #868030;
+			}
+			
+			#where .grid_12.last {
+				border-bottom: none;
+			}
 		</style>
 		<link href="grid.css" rel="stylesheet" type="text/css"/>
 	</head>
@@ -145,6 +159,8 @@
 						<li>Java</li>
 						<li>SQL</li>
 						<li>ActionScript/Flex</li>
+						<li>Regular Expressions</li>
+						<li>C</li>
 					</ul>
 				</div>
 				<div class="grid_3 section">
@@ -154,7 +170,6 @@
 							<h4>PHP</h4>
 							<ul>
 								<li>Yii</li>
-								<li>XDebug</li>
 							</ul>
 						</li>
 						<li>
@@ -165,25 +180,22 @@
 								<li>Spring</li>
 								<li>Oracle WebLogic</li>
 								<li>FreeMarker</li>
+								<li>Cordova/PhoneGap</li>
 							</ul>
 						</li>
 						<li>
 							<h4>JavaScript</h4>
 							<ul>
-								<li>Prototype</li>
-								<li>Script.aculo.us</li>
-								<li>jQuery</li>
-								<li>jQuery UI</li>
+								<li>jQuery/UI</li>
 								<li>SproutCore</li>
-								<li>MooTools</li>
 								<li>Knockout</li>
+								<li>Joose</li>
 							</ul>
 						</li>
 						<li>
 							<h4>Objective-C</h4>
 							<ul>
-								<li>Cocoa</li>
-								<li>CocoaTouch</li>
+								<li>Cocoa/Touch</li>
 							</ul>
 						</li>
 					</ul>		
@@ -211,6 +223,15 @@
 							<h4>Versioning</h4>
 							<ul>
 								<li>Git</li>
+								<li>Subversion</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Operation Systems</h4>
+							<ul>
+								<li>*nix</li<>
+								<li>Windows</li>
+								<li>Mac OS</li>
 							</ul>
 						</li>
 					</ul>
@@ -221,8 +242,6 @@
 						<li>
 							<h4>Web</h4>
 							<ul>
-								<li>CSS3</li>
-								<li>HTML5</li>
 								<li>AJAX</li>
 								<li>Grid Frameworks</li>
 								<li>Portals &amp; Portlets</li>
@@ -245,7 +264,6 @@
 								<li>Fault-tolerant Design</li>
 								<li>Unit Testing</li>
 								<li>Versioning</li>
-								<li>*NIX</li>
 							<ul>
 						</li>
 					</ul>
@@ -278,8 +296,8 @@
 				</div>
 				<div class="grid_3 omega">
 					<h3>How Long</h3>
-					15 Years Personal<br/><br/>
-					2 Years Professional
+					<div style="display: inline-block; width: 15px;">15</div> Years Personal<br/><br/>
+					<div style="display: inline-block; width: 15px;">4</div> Years Professional
 				</div>
 			</div>
 			<div class="grid_12 alpha omega colored">
@@ -288,37 +306,69 @@
 			</div>
 			<div class="grid_12 alpha omega" id="where">
 				<h3>Where</h3>
-		
-				<div class="grid_3 alpha">
-					<div class="title">Celerity LLC</div>
-					<div class="length">2010 to current</div>
-					<h4>Responsibilities</h4>
-					<ul>
-						<li>Computer Programmer</li>
-						<li>Software Developer</li>
-						<li>Systems Analyst</li>
-						<li>Professional Engineer</li>
-						<li>Consultant</li>
-						<li>Technical Writer</li>
-					</ul>
+				<div class="grid_12 alpha omega">
+					<div class="grid_3 alpha">
+						<div class="title">Celerity LLC</div>
+						<div class="length">2010 to 2012</div>
+						<h4>Responsibilities</h4>
+						<ul>
+							<li>Software Developer</li>
+							<li>Technical Writer</li>
+							<li>Systems Analyst</li>
+							<li>Professional Engineer</li>
+						</ul>
+					</div>
+					<div class="grid_9 omega">
+						<p style="margin-top: 0;">
+							At Celerity I did contract web programming for Capital One.
+							I worked on their primary US and Canada website.
+						</p>
+						<p>
+							Most of my time was spent working on the Canada website.
+							I spent a great deal of time knee-deep in code and refactoring
+							outdated or obsolete code.
+						</p>
+						<p>
+							While working at Celerity, I learned a lot about the software
+							development life cycle and working in agile.
+						</p>
+						<p>
+							Working there was a very fast paced environment;
+							our release cycle was 1-2 months, while working on multiple
+							projects at one time.
+						</p>
+					</div>
 				</div>
-				<div class="grid_5">
-					<p style="margin-top: 0;">
-						At Celerity I did contract web programming for Capital One.
-						I worked on their primary website:
-					</p>
-					http://capitalone.com, http://capitalone.ca.
-					<p>
-						Most of my time was spent working on the Canada website.
-						I spent a great deal of time knee-deep in code and refactoring
-						outdated or obsolete code.
-					</p>
-					<p>
-						Working there was a very fast paced enviroment;
-						our release cycle was 1-2 months, while working on multiple
-						projects at one time.
-					</p>
+				<div class="grid_12 alpha omega last">
+					<div class="grid_3 alpha">
+						<div class="title">GMR Marketing</div>
+						<div class="length">2012 to current</div>
+						<h4>Responsibilities</h4>
+						<ul>
+							<li>Software Developer</li>
+							<li>Server Administrator</li>
+							<li>Systems Analyst</li>
+							<li>Professional Engineer</li>
+						</ul>
+					</div>
+					<div class="grid_9 omega">
+						<p style="margin-top: 0;">
+							Working at GMR Marketing, I worked with many different clients
+							that required a varying type of work. Some included
+							SMS short-code campaigns, kiosk demos, contests, monthly
+							website refreshes, phone app development.
+						</p>
+						<p>
+							Most of my projects were done in small teams as myself being the
+							only developer.
+						</p>
+						<p>
+							There was no one language that I was conformed to at GMR. I've done
+							work in, but not limited to, Java, Objective-C, PHP, JavaScript.
+						</p>
+					</div>
 				</div>
+				
 			</div>
 
 		</div>
